@@ -1,0 +1,158 @@
+
+.header__wrap{
+    background-color:var(--gren-color);
+    border-radius: 0.5rem;
+    color: var(--header-color);
+    padding: 14px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__tel-wraper{
+    display: block;
+    position: relative;  
+}
+.header__info-wrapper {
+    display: none;
+}
+.header__info-wrapper > * {
+    margin-left: 1.5rem;
+}
+.header__ic-phone{
+    display:inline-block;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: -20px;
+}
+.header__title{
+   font-size: 18px; 
+}
+.header__tel{
+    font-size: 18px;  
+}
+.header__tel-info{
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: end;
+}
+.font-famile{
+    font-size: 11px;
+    font-style: italic;
+    font-family: 'Mulish', sans-serif;
+}
+.header__ic{
+    display: block;
+    margin: auto;
+    max-width: 35px;
+    max-height: 35px;
+}
+.button{
+    display: block;
+    border:2px solid var(--header-color) ;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+.button:hover{
+    background-color: var(--header-color);
+    color:var(--gren-color);
+}
+.header__ic-menu{
+    display: block;
+    width: 36px;
+    height: 36x;
+    border-radius: 50%;   
+}
+@media screen and (min-width:320px){
+    .container{
+        width: 300px;
+    }
+    .header__ic-menu{
+        display: block;
+    }
+}
+@media screen and (min-width:768px) {
+    .container{
+        width: 720px;
+    }
+    .header__title{
+        font-size: 27px;
+    }
+    .header__ic-menu{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media screen and (min-width:1024px) {
+    .container{
+        width: 980px;
+    }
+    .header__info-wrapper {
+        display: flex;
+    }
+    
+    .header__ic-menu{
+        display: none;
+    }
+    .header__ic{
+        width: 20px;
+        height: 20px;
+    }
+
+}
+@media screen and (min-width:1336px) {
+    .container{
+        width: 1250px;
+    } 
+    .header__title{
+        font-size: 32px;
+    }
+    .header__tel{
+        font-size: 22px;
+    }
+    .font-famile{
+        font-size:14px;
+    }
+    .header__ic-phone{
+        width: 20px;
+        height: 20px;
+    }
+    .header__ic{
+        width: 18px;
+        height: 18px;
+    }
+    .header__wrap{
+        padding: 20px 60px;
+    }
+
+}
+@media screen and (min-width:1920px) {
+    .container{
+        width: 1700px;
+    } 
+    .header__title{
+        font-size: 45px;
+    }
+    .header__tel{
+        font-size: 31px;
+    }
+    .font-famile{
+        font-size:20px;
+    }
+    .header__ic-phone{
+        width: 28px;
+        height: 28px;
+        left: -35px;
+        top:3px;
+    }
+    .header__ic{
+        width: 35px;
+        height: 35px;
+        margin-bottom: 10px;
+    }
+    .header__wrap{
+        padding: 25px 60px;
+    }
+}
