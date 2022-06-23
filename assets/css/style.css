@@ -1,11 +1,13 @@
 :root{
     --header-color:#FFFFFF;
     --gren-color:#65C466;
+    --grey-color:#C4C4C4;
+    --nav-color:#414141;
     font-family: 'Mulish', sans-serif;
 }
 body{ 
     box-sizing: border-box;
-    margin-top: 1rem;
+    margin-top: 10px;
 }
 .container{
     width: 100%;
