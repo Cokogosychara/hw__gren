@@ -5,13 +5,14 @@
     --nav-color:#414141;
     font-family: 'Mulish', sans-serif;
 }
-body{ 
+*{
     box-sizing: border-box;
-    margin-top: 10px;
+}
+body{ 
+    margin:7px 13px 5px;
 }
 .container{
     width: 100%;
-    margin: auto;
 }
 .transform{
     text-transform:uppercase;

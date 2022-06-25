@@ -1,9 +1,9 @@
 
 .header__wrap{
     background-color:var(--gren-color);
-    border-radius: 0.5rem;
+    border-radius: 5px;
     color: var(--header-color);
-    padding: 14px;
+    padding: 2px 2px 2px 14px;
 }
 .flex{
     display: flex;
@@ -18,14 +18,15 @@
     display: none;
 }
 .header__info-wrapper > * {
-    margin-left: 1.5rem;
+    margin-left: 24px;
 }
 .header__ic-phone{
     display:inline-block;
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
     position: absolute;
     left: -20px;
+
 }
 .header__title{
    font-size: 18px; 
@@ -33,16 +34,18 @@
 .header__tel{
     font-size: 18px;  
 }
+.font-famile{
+    font-size: 9px;
+    font-style: italic;
+    font-family: 'Mulish', sans-serif;
+}
 .header__tel-info{
     margin-top: 10px;
     margin-right: 10px;
     text-align: end;
+    font-size: 12px;
 }
-.font-famile{
-    font-size: 11px;
-    font-style: italic;
-    font-family: 'Mulish', sans-serif;
-}
+
 .header__ic{
     display: block;
     margin: auto;
@@ -51,9 +54,10 @@
 }
 .button{
     display: block;
+    padding: 16px 29px;
     border:2px solid var(--header-color) ;
-    border-radius: 5px;
-    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-size: 12px;
 }
 .button:hover{
     background-color: var(--header-color);
@@ -61,13 +65,15 @@
 }
 .header__ic-menu{
     display: block;
-    width: 36px;
-    height: 36x;
-    border-radius: 50%;   
+    width: 66px;
+    height: 66px; 
 }
-@media screen and (min-width:320px){
+@media screen and (max-width:320px){
     .container{
-        width: 300px;
+       min-width: 300px;
+    }
+    body{
+        margin:7px 12px ;
     }
     .header__ic-menu{
         display: block;
@@ -75,19 +81,31 @@
 }
 @media screen and (min-width:768px) {
     .container{
-        width: 720px;
+        min-width: 720px;
+    }
+    body{
+        margin:7px 22px;
+    }
+    .header__wrap{
+        padding: 0 2px 0 32px ;
     }
     .header__title{
         font-size: 27px;
     }
     .header__ic-menu{
-        width: 60px;
-        height: 60px;
+        width: 93px;
+        height: 93px;
     }
 }
 @media screen and (min-width:1024px) {
     .container{
-        width: 980px;
+        min-width: 980px;
+    }
+    body{
+        margin: 7px 31px;
+    }
+    .header__wrap{
+        padding: 20px 32px ;
     }
     .header__info-wrapper {
         display: flex;
@@ -104,8 +122,14 @@
 }
 @media screen and (min-width:1336px) {
     .container{
-        width: 1250px;
+        min-width: 1250px;
     } 
+    body{
+        margin: 7px 83px;
+    }
+    .header__wrap{
+        padding: 32px 41px 27px  66px ;
+    }
     .header__title{
         font-size: 32px;
     }
@@ -113,25 +137,40 @@
         font-size: 22px;
     }
     .font-famile{
-        font-size:14px;
+        font-size:11px;
     }
     .header__ic-phone{
         width: 20px;
         height: 20px;
+        left: -25px;
+        bottom: 24px;
     }
     .header__ic{
         width: 18px;
         height: 18px;
     }
-    .header__wrap{
-        padding: 20px 60px;
+    .button{
+        padding: 15px 35px;
+        border-radius: 5px;
+        font-size:14px;
     }
+    .header__tel-info{
+        font-size:14px;
+
+    }
+    
 
 }
 @media screen and (min-width:1920px) {
     .container{
-        width: 1700px;
+        min-width: 1700px;
     } 
+    body{
+        margin: 8px 128px;
+    }
+    .header__wrap{
+        padding: 37px 51px 37px  85px ;
+    }
     .header__title{
         font-size: 45px;
     }
@@ -139,7 +178,7 @@
         font-size: 31px;
     }
     .font-famile{
-        font-size:20px;
+        font-size:19px;
     }
     .header__ic-phone{
         width: 28px;
@@ -152,7 +191,10 @@
         height: 35px;
         margin-bottom: 10px;
     }
-    .header__wrap{
-        padding: 25px 60px;
+    .button{
+        border:3px solid var(--header-color) ;
+        padding: 21px 45px;
+        border-radius: 7px;
+        font-size:20px;
     }
 }
