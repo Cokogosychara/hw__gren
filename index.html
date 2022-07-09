@@ -5,23 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Green</title>
+   
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;1,200&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,500;0,700;1,200&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/strip.css">
     <link rel="stylesheet" href="./assets/css/nav.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./assets/css/ask-question.css">
 
 </head>
 <body>
     <!-- Верхний блок меню -->
     <div class="header">
-        <section class="header__wrap  flex container">
+        <section class="header__wrap container flex ">
             <div class="header__title">Классика права</div>
                 <div class="header__info-wrapper flex ">
                     <div class="header__tel-wraper ">
@@ -29,7 +32,7 @@
                         <h2 class="header__tel">+38 (000) 000-00-00</h2>
                         <p class="header__tel-info font-famile">Бесплатная консультация</p>
                     </div>
-                        <a href="#" class="font-famile button transform" id="registration">заказать звонок</a>
+                        <a href="#" class="font-famile header__button transform" id="registration">заказать звонок</a>
                     <div class="header__registration">
                         <img class="header__ic" src="./assets/icon/Vector.png" alt="">
                         <a href="#" class="font-famile transform ">войти/регестрация</a> 
@@ -39,9 +42,7 @@
         </section>
     </div>
     <!-- блок полоска -->
-    <div class="container strip">
-
-    </div>
+    <div class="container strip"></div>
     <!-- блок навигации меню -->
     <nav class="nav container" >
         <ul class="outside-menu-items">
@@ -71,6 +72,35 @@
             </li>
         </ul>
     </nav>
+    <!-- блок задайте вопрос юристу -->
+    <div class="ask-question container flex ">
+        <div class="ask-question__img">
+            <div class="ask-question__img-media"></div>
+        </div> 
+        <div class="ask-question__info ask-question__info-flex">
+            <div class="ask-question__title-wraper ask-question__title-wraper-flex">
+                <h2 class="ask-question__title ">Задайте вопрос юристу онлайн</h2>
+                <div class="ask-question__icon-employees-flex ask-question__icon-employees font-Mulish">
+                    <div class="ask-question__icon-employees-img" ></div>
+                    <p>30 онлайн</p>
+                </div>
+            </div>
+                <p class="ask-question__content font-Mulish" >Компания специализируется на оказании широкого спектра услуг как для корпоративных клиентов так и для частных лиц. Профессионализм и ответственность ключевые преимущества нашей компании.</p>
+                <div class="ask-question__img-mobail">
+                    <img class="img-mobail" src="./assets/images/referee-mobail.png" alt="">
+                </div>
+                <input class=" ask-question__phone font-Mulish box-shadow overflow" type="tel" placeholder="Введите номер Вашего телефона">
+                <input class=" ask-question__question font-Mulish box-shadow overflow" type="text" placeholder="Введите Ваш вопрос...">
+            <div class="ask-question__form flex">
+                <div class="input-checkbox flex">
+                    <input type="checkbox" >
+                    <div class="checkbox__text font-Mulish" > Нажимая кнопку “Отправить” вы соглашаетесь с политикой конфидециальности</div>
+                </div>
+                <input class="ask-question__button button font-Mulish" type="submit" value="Отправить вопрос">
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
     
