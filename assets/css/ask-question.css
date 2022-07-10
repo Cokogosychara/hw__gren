@@ -52,9 +52,9 @@
 }
 .ask-question__icon-employees{
     display: none;
-    min-width: 55px;
-    width: 55px;
-    height: 55px;
+    min-width: 61px;
+    width: 61px;
+    height: 61px;
     margin-right: 19px;
     background-color: var(--gren-color);
     border: 2px solid #ffffff;
@@ -153,7 +153,7 @@ input[type="checkbox"]::before{
 }
 @media screen and (min-width:320px) {
     .container{
-       min-width: 295px;
+       min-width: 296px;
     }
     body{
         margin:7px 12px;
@@ -183,7 +183,7 @@ input[type="checkbox"]::before{
         font-size: 23px;
     }
     .ask-question__content{
-        margin-top: 19px;
+        margin-top: 16px;
     }
     .ask-question__phone{
         margin-top: 14px;
@@ -225,7 +225,7 @@ input[type="checkbox"]::before{
         margin: 7px 31px;
     }
     .ask-question{
-        margin-top: 59px;
+        margin-top: 50px;
     }
     .ask-question__img{
         min-width: 367px;
@@ -310,7 +310,7 @@ input[type="checkbox"]::before{
         margin: 7px 83px;
     }
     .ask-question{
-        margin-top: 85px;
+        margin-top: 75px;
     }
     .ask-question__img{
         min-width: 456px;
@@ -332,8 +332,8 @@ input[type="checkbox"]::before{
         line-height:42px; 
     }
     .ask-question__icon-employees{
-        width: 69px;
-        height: 69px;
+        width: 77px;
+        height: 77px;
         right: -15px;
         top: 50px;
     }
@@ -364,7 +364,7 @@ input[type="checkbox"]::before{
         line-height: 18px;
     }
     .ask-question__form{
-        margin-top: 18px;
+        margin-top: 19px;
     }
     .input-checkbox{
         align-items: inherit;
@@ -397,7 +397,7 @@ input[type="checkbox"]::before{
         margin: 8px 128px;
     }
     .ask-question{
-        margin-top: 122px;
+        margin-top: 112px;
     }
     .ask-question__img{
         min-width: 648px;
@@ -420,8 +420,8 @@ input[type="checkbox"]::before{
         line-height:42px; 
     }
     .ask-question__icon-employees{
-        width: 98px;
-        height: 98px;
+        width: 109px;
+        height: 109px;
         right: -15px;
         top: 80px;
     }
@@ -441,7 +441,7 @@ input[type="checkbox"]::before{
         margin:21px 133px 0 0;
     }
     .ask-question__phone{
-        margin-top: 42px;
+        margin-top: 43px;
         padding: 25px 0px 25px 28px;
         border-radius: 7px;
         font-size: 20px;
@@ -475,7 +475,7 @@ input[type="checkbox"]::before{
     .ask-question__button{
         width: 264px;
         height: 61px;
-        margin-top: 35px;
+        margin-top: 36px;
         padding: 17px 44px;
         border-radius: 7px;
         font-size: 20px; 

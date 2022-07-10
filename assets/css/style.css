@@ -9,9 +9,9 @@
 *{
     box-sizing: border-box;
 }
-body{ 
+/* body{ 
     margin:7px 13px 5px;
-}
+} */
 .transform{
     text-transform:uppercase;
 }
@@ -20,6 +20,7 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+
 .overflow{
     overflow: hidden;
     white-space: nowrap;
