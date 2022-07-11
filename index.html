@@ -19,12 +19,13 @@
     <link rel="stylesheet" href="./assets/css/strip.css">
     <link rel="stylesheet" href="./assets/css/nav.css">
     <link rel="stylesheet" href="./assets/css/ask-question.css">
+    <link rel="stylesheet" href="./assets/css/business-lawyers.css">
 
 </head>
 <body>
     <!-- Верхний блок меню -->
-    <div class="header ">
-        <section class="header__wrap container flex ">
+    <div class=" header header__container ">
+        <section class="  header__wrap  flex ">
             <div class="header__title">Классика права</div>
                 <div class="header__info-wrapper flex ">
                     <div class="header__tel-wraper ">
@@ -35,16 +36,16 @@
                         <a href="#" class="font-famile header__button transform" id="registration">заказать звонок</a>
                     <div class="header__registration">
                         <img class="header__ic" src="./assets/icon/Vector.png" alt="">
-                        <a href="#" class="font-famile transform ">войти/регестрация</a> 
+                        <a href="#" class=" header__registration-link font-famile transform ">войти/регестрация</a> 
                     </div>
                 </div>
             <img class="header__ic-menu" src="./assets/icon/head-menu-button.svg" alt=""> 
         </section>
+        <!-- блок полоска -->
+        <div class="strip"></div>
     </div>
-    <!-- блок полоска -->
-    <div class="container strip"></div>
     <!-- блок навигации меню -->
-    <nav class="nav container" >
+    <nav class="nav nav__container" >
         <ul class="outside-menu-items">
             <li class="nav__list"><a class="nav__link transform" href="">компания <img class="link-menu" src="./assets/icon/arrow.svg" alt=""></a></li>
             <li class="nav__list"><a class="nav__link transform" href="">каталог <img class="link-menu" src="./assets/icon/arrow.svg" alt=""></a>
@@ -73,7 +74,7 @@
         </ul>
     </nav>
     <!-- блок задайте вопрос юристу -->
-    <div class="ask-question container flex ">
+    <div class="ask-question ask-question__container flex ">
         <div class="ask-question__img">
             <div class="ask-question__img-media"></div>
         </div> 
@@ -100,6 +101,18 @@
             </div>
         </div>
     </div>
+<!-- юрист для бизнеса -->
+<div class="business-lawyers__container">
+    <div class="business-lawyers">
+        <div class="business-lawyers__gradient">
+            <div class="business-lawyers__content">
+                <h2 class="business-lawyers__title" >ЮРИСТЫ ДЛЯ БИЗНЕСА</h2>
+                <p class="business-lawyers__paragraph font-Mulish">Сопровождение юридических лиц во всех областях права</p>
+                <button class="business-lawyers__button button font-Mulish">Заказать звонок </button>
+            </div>
+        </div>    
+    </div>
+</div>
 
 </body>
 </html>

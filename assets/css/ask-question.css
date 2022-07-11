@@ -1,7 +1,10 @@
 
-.ask-question{
-    padding: 0 7px 0 7px;
+.ask-question {
+    
     align-items: inherit;
+}
+.ask-question__container{
+    padding: 0 22px;
 }
 .ask-question__img{
     display: none;
@@ -30,7 +33,7 @@
 
 .ask-question__title{
     height: 31px;
-    margin-top: 20px;
+    margin-top: 26px;
     color: var(--gren-color);
     font-weight:400;
     font-size: 24px; 
@@ -68,7 +71,7 @@
     background-size: 100% 100%;
 }
 .ask-question__content{
-    min-width: 266px;
+    min-width: 276px;
     margin-top: 34px;
     color: #414141;
     font-size: 13px;
@@ -87,12 +90,12 @@
     position: absolute;
     width: 259px;
     height: 329px;
-    right: 18px;
+    right: 17px;
     bottom: 13px;
     
 }
 .ask-question__phone{
-    min-width: 266px;
+    min-width: 276px;
     margin-top: 20px; 
     padding:10px 0px 10px 12px;
     color: var(--input-color);
@@ -102,7 +105,7 @@
     
 }
 .ask-question__question{
-    min-width: 266px;
+    min-width: 276px;
     margin-top: 11px;
     padding:10px 0px 66px 12px;
     color: var(--input-color);
@@ -152,21 +155,18 @@ input[type="checkbox"]::before{
     text-align: center;   
 }
 @media screen and (min-width:320px) {
-    .container{
-       min-width: 296px;
+    .ask-question__container{
+       min-width: 320px;
     }
-    body{
-        margin:7px 12px;
-    }
+    
     
 }
 @media screen and (min-width:768px) {
-    .container{
-        min-width: 720px;
-    }
-    body{
-        margin:7px 22px;
-    }
+    .ask-question__container{
+        min-width: 715px;
+        padding: 0 31px 0 22px;
+     }
+    
     .ask-question{
         margin-top: 52px;
     }
@@ -218,12 +218,11 @@ input[type="checkbox"]::before{
     } 
 }
 @media screen and (min-width:1024px) {
-    .container{
-        min-width: 963px;
-    }
-    body{
-        margin: 7px 31px;
-    }
+    .ask-question__container{
+        min-width: 992px;
+        padding: 0 31px;
+     }
+    
     .ask-question{
         margin-top: 50px;
     }
@@ -303,12 +302,11 @@ input[type="checkbox"]::before{
     }
 }
 @media screen and (min-width:1336px) {
-    .container{
-        min-width: 1169px;
-    } 
-    body{
-        margin: 7px 83px;
-    }
+    .ask-question__container{
+        min-width: 1170px;
+        padding: 0 83px;
+     }
+    
     .ask-question{
         margin-top: 75px;
     }
@@ -390,12 +388,11 @@ input[type="checkbox"]::before{
 }
     
 @media screen and (min-width:1920px) {
-    .container{
-        min-width: 1664px;
-    } 
-    body{
-        margin: 8px 128px;
-    }
+    .ask-question__container{
+        min-width: 1655px;
+        padding: 0 128px 0 137px;
+     }
+    
     .ask-question{
         margin-top: 112px;
     }
