@@ -1,0 +1,632 @@
+.services-provided {
+ margin-top: 35px;
+}
+
+.services-provided__container {
+    min-width: 320px;
+    padding: 0 17px;
+}
+
+.services-provided__title{
+    height: 57px;
+    color:var(--gren-color) ;
+    text-align: center;
+    font-size: 22px;
+    font-weight:400;
+    line-height: 26px;
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+.services-provided__paragraph {
+    height: 97px;
+    margin-top: 11px;
+    color:var(--nav-color) ;
+    font-weight:400;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.services-provided__card-repair-of-equipment{
+    width: 211px;
+    height: 317px;
+    margin:14px auto 0 ;
+    padding:164px 8px 18px 8px;
+    background-image: url(../images/welder-card.png);
+    background-position: 50% 40%;
+    border-radius: 6px;
+}
+
+.services-provided__card-repair-of-equipment-title {
+    color: var(--header-color);
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.services-provided__card-repair-of-equipment-paragraph {
+    margin-top: 8px;
+    color: var(--header-color);
+    font-family: 'Roboto',sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    
+}
+
+.services-provided__card-repair-of-equipment-info {
+    width: 81px;
+    margin: 43px auto 0;
+    color: var(--header-color);
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    
+}
+
+.services-provided__card-building,
+.services-provided__card-english-courses {
+    display: none;
+}
+
+.services-provided__arrow-left,
+.services-provided__arrow-rihgt {
+    display: none;
+    width: 25px;
+    height: 25px;
+    background-image: url(../icon/arrow.png);
+}
+
+.services-provided__arrow-rihgt {     /* сделал не задавал жесткого размера отступу считаю что так лучше и красивее */
+    /* margin-left: 18px; */
+    transform: rotate(-180deg);
+}
+
+/* .services-provided__arrow-left {
+    margin-right: 18px;
+} */
+
+.services-provided__card-building,
+.services-provided__card-english-courses {
+    width: 171px;
+    height: 254px;
+    padding:0 8px 9px 8px ;
+    border-radius: 5px;
+    background-position: 50% 40%;
+    
+}
+
+.services-provided__card-building {
+    padding-top: 122px;
+    background-image: url(../images/building.png);
+}
+
+.services-provided__card-english-courses {
+    padding-top: 132px;
+    background-image: url(../images/english-courses.png);
+}
+
+.services-provided__card-building-title,
+.services-provided__card-english-courses-title {
+    color: var(--header-color); 
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.services-provided__card-building-paragraph,
+.services-provided__card-english-courses-paragraph {
+   
+    margin-top: 4px;
+    color: var(--header-color);
+    font-family: 'Roboto',sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+.services-provided__card-building-info,
+.services-provided__card-english-courses-info {
+    color: var(--header-color);
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+}
+
+.services-provided__card-building-info {
+    margin:12px auto 0 ;
+}
+
+.services-provided__card-english-courses-info {
+    margin:32px auto 0 ;
+}
+
+.services-provided__map-selection {  /* баг системы блок стает сам по себе больше занимаемого в нем контента */
+    margin-top: 15px;
+    text-align: center;
+}
+
+.services-provided__map-selection :not(:first-child) {
+    margin-left: 7px ;
+    background-color: #E8E2D5;
+}
+
+.services-provided__map-selection-cell {
+    display: inline-block;
+    width: 28px;
+    height: 3px;
+    background-color: var(--gren-color);
+    border-radius: 2px;
+}
+
+.services-provided__arrow-mobail {
+    margin-top: 27px;
+    text-align: center;
+
+}
+
+.services-provided__arrow-mobail :not(:first-child) {
+    margin-left: 29px;
+    transform: rotate(-180deg);
+}
+
+.services-provided__arrow {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../icon/arrow.png);
+}
+
+@media screen and (min-width:320px){
+    
+}
+
+@media screen and (min-width:768px) {
+    .services-provided {
+        margin-top: 57px;
+    }
+
+    .services-provided__container {
+        padding: 0 36px;
+    }
+
+    .services-provided__title{
+        height: 35px;
+        text-align: center;
+        font-size: 25px;
+        line-height: 30px;
+       
+    }
+    
+    .services-provided__paragraph {
+        width: 668px;
+        height: 36px;
+        margin: 17px auto 0; 
+        font-size: 13px;
+    }
+
+    .services-provided__card-wraper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:67px ;
+    }
+
+    .services-provided__card-building,
+    .services-provided__card-repair-of-equipment,
+    .services-provided__card-english-courses { /* где применил авто отступ  */
+        display: block;
+        margin: auto;
+    }
+
+    .services-provided__arrow-left,
+    .services-provided__arrow-rihgt {
+        display: block;
+    }
+    
+    .services-provided__card-repair-of-equipment{
+        width: 190px;
+        height: 285px;
+        margin: -28px 0 0 0;
+        padding:147px 0 16px 8px;
+        background-image: url(../images/welder-card.png);
+        background-position: 50% 70%;
+        border-radius: 6px;
+    }
+
+    .services-provided__card-repair-of-equipment-title {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    
+    .services-provided__card-repair-of-equipment-paragraph {
+        margin-top: 7px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    
+    .services-provided__card-repair-of-equipment-info {
+        margin: 39px auto 0;
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+    .services-provided__card-building-info,
+    .services-provided__card-repair-of-equipment-info,
+    .services-provided__card-english-courses-info {
+        width: 73px;
+    }
+
+    .services-provided__map-selection {
+        margin-top:24px;
+    }
+
+    .services-provided__map-selection :not(:first-child) {
+        margin-left: 9px ;
+    }
+
+    .services-provided__map-selection-cell {
+        width: 36px;
+        height: 4px;
+    }
+
+    .services-provided__arrow-mobail {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .services-provided {
+        margin-top: 47px;
+    }
+
+    .services-provided__container {
+        padding: 0 48px;
+    }
+
+    .services-provided__card-wraper {
+        margin-top:83px ;
+    }
+
+    .services-provided__card-building,
+    .services-provided__card-english-courses {
+        width: 227px;
+        height: 339px;
+        padding:0 11px 13px 11px;
+        border-radius: 7px;
+        background-size:120% 115%;
+    }
+
+    .services-provided__card-building {
+        padding-top:163px;
+    }
+
+    .services-provided__card-repair-of-equipment {
+        width: 253px;
+        height: 380px;
+        margin-top: -40px;
+        padding:196px 10px 21px 10px;
+        border-radius: 7px;
+        background-size:117% 124%;
+    }
+
+    .services-provided__card-english-courses {
+        padding-top:176px;
+    }
+
+    .services-provided__card-building-title,
+    .services-provided__card-repair-of-equipment-title,
+    .services-provided__card-english-courses-title {
+        font-size: 21px;
+        line-height: 25px;
+    }
+    
+    .services-provided__card-building-paragraph,
+    .services-provided__card-repair-of-equipment-paragraph,
+    .services-provided__card-english-courses-paragraph {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .services-provided__card-building-paragraph,
+    .services-provided__card-english-courses-paragraph {
+        margin-top: 6px;
+    }
+
+    .services-provided__card-repair-of-equipment-paragraph {
+        margin-top:10px ;
+    }
+
+    .services-provided__card-building-info,
+    .services-provided__card-repair-of-equipment-info,
+    .services-provided__card-english-courses-info {
+        width: 97px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .services-provided__card-building-info {
+        margin-top: 16px;
+    }
+
+    .services-provided__card-repair-of-equipment-info {
+        margin-top: 51px;
+    }
+
+    .services-provided__card-english-courses-info {
+        margin-top: 43px;
+    }
+
+    .services-provided__arrow-left,
+    .services-provided__arrow-rihgt {
+        width: 33px;
+        height: 33px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .services-provided__map-selection {
+        margin-top:38px;
+    }
+
+    .services-provided__map-selection :not(:first-child) {
+        margin-left: 12px ;
+    }
+
+    .services-provided__map-selection-cell {
+        width: 48px;
+        height: 6px;
+    }
+    
+}
+@media screen and (min-width:1336px) {
+    .services-provided {
+        margin-top: 61px;
+    }
+
+    .services-provided__container {
+        padding: 0 83px;
+    }
+
+    .services-provided__title{
+        height: 42px;
+        font-size: 35px;
+        line-height: 42px;
+    }
+    
+    .services-provided__paragraph {
+        width: 967px;
+        height: 46px;
+        margin-top: 25px;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .services-provided__card-wraper {
+        margin-top:117px ;
+    }
+
+    .services-provided__card-building,
+    .services-provided__card-english-courses {
+        width: 276px;
+        height: 412px;
+        padding:0 11px 15px 11px;
+        border-radius: 9px;
+    }
+
+    .services-provided__card-building {
+        padding-top:198px;
+    }
+
+    .services-provided__card-repair-of-equipment {
+        width: 307px;
+        height: 462px;
+        margin-top: -50px;
+        padding:239px 10px 26px 12px;
+        border-radius: 9px;
+    }
+
+    .services-provided__card-english-courses {
+        padding-top:214px;
+    }
+
+    .services-provided__card-building-title,
+    .services-provided__card-repair-of-equipment-title,
+    .services-provided__card-english-courses-title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    
+    .services-provided__card-building-paragraph,
+    .services-provided__card-repair-of-equipment-paragraph,
+    .services-provided__card-english-courses-paragraph {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .services-provided__card-building-paragraph,
+    .services-provided__card-english-courses-paragraph {
+        margin-top: 7px;
+    }
+
+    .services-provided__card-repair-of-equipment-paragraph {
+        margin-top:12px ;
+    }
+
+    .services-provided__card-building-info,
+    .services-provided__card-repair-of-equipment-info,
+    .services-provided__card-english-courses-info {
+        width: 118px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .services-provided__card-building-info {
+        margin-top: 20px;
+    }
+
+    .services-provided__card-repair-of-equipment-info {
+        margin-top: 62px;
+    }
+
+    .services-provided__card-english-courses-info {
+        margin-top: 52px;
+    }
+
+    .services-provided__arrow-left,
+    .services-provided__arrow-rihgt {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* .services-provided__arrow-left {
+        margin-right:31px ;
+    }
+
+    .services-provided__arrow-rihgt {
+        margin-left: 31px;
+    } */
+
+    .services-provided__map-selection {
+        margin-top:49px;
+    }
+
+    .services-provided__map-selection :not(:first-child) {
+        margin-left: 14px ;
+    }
+
+    .services-provided__map-selection-cell {
+        width: 58px;
+        height: 7px;
+    }
+
+    
+}
+@media screen and (min-width:1920px) {
+    .services-provided {
+        margin-top: 77px;
+    }
+
+    .services-provided__title{
+        height: 60px;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    
+    .services-provided__paragraph {
+        width: 1374px;
+        height: 63px;
+        margin-top: 36px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .services-provided__card-wraper {
+        margin-top:170px ;
+    }
+
+    .services-provided__card-building,
+    .services-provided__card-english-courses {
+        width: 393px;
+        height: 585px;
+        padding:0 16px 22px 16px;
+        border-radius: 12px;
+    }
+
+    .services-provided__card-building {
+        padding-top:281px;
+    }
+
+    .services-provided__card-repair-of-equipment {
+        width: 437px;
+        height: 657px;
+        margin-top: -70px;
+        padding:339px 10px 36px 18px;
+        border-radius: 12px;
+    }
+
+    .services-provided__card-english-courses {
+        padding-top:304px;
+    }
+
+    .services-provided__card-building-title,
+    .services-provided__card-repair-of-equipment-title,
+    .services-provided__card-english-courses-title {
+        font-size: 36px;
+        line-height: 43px;
+    }
+    
+    .services-provided__card-building-paragraph,
+    .services-provided__card-repair-of-equipment-paragraph,
+    .services-provided__card-english-courses-paragraph {
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    .services-provided__card-building-paragraph,
+    .services-provided__card-english-courses-paragraph {
+        margin-top: 10px;
+    }
+
+    .services-provided__card-repair-of-equipment-paragraph {
+        margin-top:17px ;
+    }
+
+    .services-provided__card-building-info,
+    .services-provided__card-repair-of-equipment-info,
+    .services-provided__card-english-courses-info {
+        width: 168px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .services-provided__card-building-info {
+        margin-top: 28px;
+    }
+
+    .services-provided__card-repair-of-equipment-info {
+        margin-top: 89px;
+    }
+
+    .services-provided__card-english-courses-info {
+        margin-top: 74px;
+    }
+
+    .services-provided__arrow-left,
+    .services-provided__arrow-rihgt {
+        width: 57px;
+        height: 57px;
+    }
+
+    /* .services-provided__arrow-left {
+        margin-right:44px ;
+    }
+
+    .services-provided__arrow-rihgt {
+        margin-left: 44px;
+    } */
+
+    .services-provided__map-selection {
+        margin-top:76px;
+    }
+
+    .services-provided__map-selection :not(:first-child) {
+        margin-left: 20px ;
+    }
+
+    .services-provided__map-selection-cell {
+        width: 83px;
+        height: 10px;
+    }
+    
+}
+
