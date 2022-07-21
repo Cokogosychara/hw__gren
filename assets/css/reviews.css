@@ -1,0 +1,434 @@
+.reviews {
+    min-width: 320px;
+    margin-top: 46px;
+    padding:0 10px;
+}
+
+.reviews__title {
+    color: var(--gren-color);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.reviews__paragraph {
+    width: 256px;
+    margin:9px auto 0 auto;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.reviews__card-arrow-container {
+    display: none;
+    width: 734px;
+    margin: 108px auto -96px auto;
+}
+
+.reviews__card-arrow-container :last-child {
+    transform: rotate(180deg);
+}
+
+.reviews__card-arrow {    
+    width: 27px;
+    height: 27px;
+    transform: rotate(360deg);
+    background-image:url(../icon/reviews__card-arrow.svg) ;
+    background-repeat: no-repeat;
+    background-size:center;
+  
+}
+
+.reviews__card {
+    margin-top: 16px;
+}
+
+.reviews__card-wraper,
+.reviews__card-wraper-mobail {
+    width: 299px;
+    margin: 0 auto;
+    padding: 21px 14px;
+    border-radius:6px ;
+    box-shadow: inset 0px 0px 12.0799px rgba(0, 0, 0, 0.08);
+}
+
+.reviews__card-wraper{
+    display: none;
+}
+
+.reviews__card-logo {
+    width: 84px;
+}
+
+.reviews__card-logo-star {
+    width: 12px;
+    height: 12px;
+    background-image: url(../icon/Star.svg);
+    background-repeat: no-repeat;
+}
+
+.reviews__card-paragraph {
+    margin-top: 15px;
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.reviews__card-info {
+    width: 137px;
+    margin-top: 12px;
+}
+
+.reviews__card-info-img {
+    width: 37px;
+    height: 37px;
+    background-image:url(../images/reviews__card-info-img.png) ;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.reviews__card-info-user-name-title {
+    color: var(--nav-color);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.reviews__card-info-user-name-paragraph {
+    margin-top: 6px;
+    color: var(--gren-color);
+    font-style: italic;
+    font-weight: 200;
+    font-size: 9px;
+    line-height: 11px;
+}
+
+/* свайп индикатор */
+
+.reviews__selection {
+    width: 199px;
+    margin: 30px auto 0 auto;
+}
+
+.reviews__selection :first-child {
+    background-color: var(--gren-color);
+}
+
+.reviews__selection-cell {
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #E8E2D5;
+}
+
+.reviews__arrow-mobail {
+    width: 79px;
+    margin: 12px auto 0 auto;
+}
+
+.reviews__arrow-mobail :last-child {
+    transform: rotate(180deg);
+}  
+.reviews__arrow {
+    width: 25px;
+    height: 25px;
+    background-image: url(../icon/arrow-gren.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+@media screen and (min-width:320px){
+    
+}
+@media screen and (min-width:768px) {
+    .reviews {
+        margin-top: 86px;
+        padding:0 15px;
+    }
+    
+    .reviews__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .reviews__paragraph {
+        width: 408px;
+        margin:13px auto 0 auto;
+    }
+
+    .reviews__card-arrow-container {
+        display: flex;
+    }
+
+    .reviews__card {
+        width: 738px;
+        margin: 0 auto 0 auto;
+        padding: 0 15px;
+    }
+    
+    .reviews__card-wraper,
+    .reviews__card-wraper-mobail {
+        width: 345px;
+        margin:0;
+        padding: 21px 37px;
+        
+    }
+    
+    .reviews__card-wraper{
+        display: block;
+    }
+    .reviews__selection {
+        width: 249px;
+        margin: 41px auto 0 auto;
+    }
+    
+    .reviews__selection-cell {
+        width: 35px;
+        height: 4px;
+    }
+    
+    .reviews__arrow-mobail {
+        display: none;
+    }
+   
+    
+}
+@media screen and (min-width:1024px) {
+    .reviews {
+        margin-top: 142px;
+        padding:0 94px;
+    }
+    
+    .reviews__title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .reviews__paragraph {
+        width: 430px;
+    }
+
+    .reviews__card-arrow-container {
+        width: 836px;
+        margin: 128px auto -102px auto;
+    }
+
+    .reviews__card-arrow {   
+        width: 21px;
+        height: 21px;
+        background-size: cover;
+    }
+
+    .reviews__card {
+        width: 842px;
+        margin: 0 auto 0 auto;
+        padding: 0 15px;
+    }
+    
+    .reviews__card-wraper,
+    .reviews__card-wraper-mobail {
+        width: 397px;
+        margin:0;
+        padding: 22px 88px 22px 38px;
+        border-radius: 7px;
+        
+    }
+
+    .reviews__card-paragraph {
+        margin-top: 24px;
+    }
+    
+    .reviews__card-info {
+        width: 137px;
+        margin-top: 25px;
+    }
+
+    .reviews__selection {
+        width: 290px;
+        margin: 40px auto 0 auto;
+    }
+    
+    .reviews__selection-cell {
+        width: 40px;
+        height: 5px;
+    }
+    
+}
+@media screen and (min-width:1336px) {
+    .reviews {
+        margin-top: 150px;
+        padding:0 67px;
+    }
+    
+    .reviews__title {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    
+    .reviews__paragraph {
+        width: 620px;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .reviews__card-arrow-container {
+        width: 1202px;
+        margin: 180px auto -150px auto;
+    }
+
+    .reviews__card-arrow {   
+        width: 30px;
+        height: 30px;
+    }
+
+    .reviews__card {
+        width: 1202px;
+    }
+    
+    .reviews__card-wraper,
+    .reviews__card-wraper-mobail {
+        width: 572px;
+        padding: 29px 127px 37px 55px;
+        border-radius: 10px;
+    }
+
+    .reviews__card-logo {
+        width: 122px;
+    }
+    
+    .reviews__card-logo-star {
+        width: 18px;
+        height: 18px;
+        background-size: cover;
+    }
+
+    .reviews__card-paragraph {
+        margin-top: 34px;
+        font-size: 19px;
+        line-height: 24px;
+    }
+    
+    .reviews__card-info {
+        width: 196px;
+        margin-top: 33px;
+    }
+
+    .reviews__card-info-img {
+        width: 53px;
+        height: 53px;
+    }
+
+    .reviews__card-info-user-name-title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .reviews__card-info-user-name-paragraph {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .reviews__selection {
+        width: 419px;
+        margin: 57px auto 0 auto;
+    }
+    
+    .reviews__selection-cell {
+        width: 58px;
+        height: 7px;
+        border-radius: 3px;
+    }
+   
+}
+@media screen and (min-width:1920px) {
+    .reviews {
+        margin-top: 273px;
+        padding:0 106px;
+    }
+    
+    .reviews__title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    
+    .reviews__paragraph {
+        width: 881px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .reviews__card-arrow-container {
+        width: 1708px;
+        margin: 262px auto -210px auto;
+    }
+
+    .reviews__card-arrow {   
+        width: 43px;
+        height: 43px;
+    }
+
+    .reviews__card {
+        width: 1696px;
+    }
+    
+    .reviews__card-wraper,
+    .reviews__card-wraper-mobail {
+        width: 813px;
+        padding: 41px 181px 53px 78px;
+        border-radius: 14px;
+    }
+
+    .reviews__card-logo {
+        width: 174px;
+    }
+    
+    .reviews__card-logo-star {
+        width: 26px;
+        height: 26px;
+    }
+
+    .reviews__card-paragraph {
+        margin-top: 48px;
+        font-size: 27px;
+        line-height: 34px;
+    }
+    
+    .reviews__card-info {
+        width: 276px;
+        margin-top: 51px;
+    }
+
+    .reviews__card-info-img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .reviews__card-info-user-name-title {
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .reviews__card-info-user-name-paragraph {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .reviews__selection {
+        width: 595px;
+        margin: 81px auto 0 auto;
+    }
+    
+    .reviews__selection-cell {
+        width: 83px;
+        height: 10px;
+        border-radius: 5px;
+    }
+    
+}
